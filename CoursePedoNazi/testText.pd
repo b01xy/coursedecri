@@ -1,0 +1,11 @@
+#N canvas 671 177 450 300 10;
+#X obj 125 38 gemwin;
+#X msg 125 1 create \, 1;
+#X obj 250 59 gemhead;
+#X obj 250 156 text2d;
+#X msg 272 114 text Go !;
+#X floatatom 373 124 5 0 0 0 - - -;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 4 0 3 0;
+#X connect 5 0 3 1;
